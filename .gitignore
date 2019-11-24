@@ -1,0 +1,39 @@
+# Compiled output
+dist
+
+# Coverage Test Cache & Output
+.nyc_output/
+coverage
+
+# Dependencies
+/node_modules/
+node_modules
+/src/node_modules/@sapper/
+
+# Dependencies lock files
+package-lock.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System files
+.DS_Store
+
+# Logs
+yarn-error.log
+
+# Testing output
+/cypress/screenshots/
