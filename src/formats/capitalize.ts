@@ -2,10 +2,10 @@
 /**
  * Returns the Capitalized form of a string
  * ```javascript
- * 'innerHTML'.capitalize()         // 'InnerHTML'
- * 'action_name'.capitalize()       // 'Action_name'
- * 'css-class-name'.capitalize()    // 'Css-class-name'
- * 'my favorite items'.capitalize() // 'My favorite items'
+ * capitalize('innerHTML')         // 'InnerHTML'
+ * capitalize('action_name')       // 'Action_name'
+ * capitalize('css-class-name')    // 'Css-class-name'
+ * capitalize('my favorite items') // 'My favorite items'
  * ```
  * @method capitalize
  * @param {String} str The string to capitalize.

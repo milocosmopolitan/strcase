@@ -2,10 +2,10 @@
  * More general than decamelize. Returns the lower_case_and_underscored
  * form of a string.
  * ```javascript
- * 'innerHTML'.underscore();          // 'inner_html'
- * 'action_name'.underscore();        // 'action_name'
- * 'css-class-name'.underscore();     // 'css_class_name'
- * 'my favorite items'.underscore();  // 'my_favorite_items'
+ * underscore('innerHTML');          // 'inner_html'
+ * underscore('action_name');        // 'action_name'
+ * underscore('css-class-name');     // 'css_class_name'
+ * underscore('my favorite items');  // 'my_favorite_items'
  * ```
  * @method underscore
  * @param {String} str The string to underscore.
