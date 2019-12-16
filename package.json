@@ -1,7 +1,7 @@
 {
   "name": "strcase",
   "description": "String case modifier",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/strcase.js",
   "module": "dist/strcase.es.js",
   "files": [
@@ -14,14 +14,16 @@
       ".ts",
       ".tsx"
     ],
-    "include": ["src/*"],
+    "include": [
+      "src/*"
+    ],
     "exclude": [
       "**/*.d.ts"
     ],
     "reporter": [
       "html"
     ],
-    "all": true  
+    "all": true
   },
   "scripts": {
     "build": "rm -rf dist && tsc",
